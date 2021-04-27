@@ -4,13 +4,11 @@ surname: "Rodríguez León"
 position: "Ph.D. Student"
 address: "Julius-Maximilians-Universitaet Wuerzburg"
 phone: +49 15788101479
-profilepic: mariecurie.jpg
-www: mariecurie.com
 email: "daniel.rodriguez@stud-mail.uni-wuerzburg.de"
-twitter: mariecurie
-github: dsrodriguezl
 orcid: 0000-0001-9637-1364
+researchgate: Daniel-Rodriguez-Leon
 linkedin: daniel-rodríguez-león-0844b372
+github: dsrodriguezl
 date: "`r format(Sys.time(), '%B %Y')`"
 aboutme: "Biologist with a great interest in Behavioral and Chemical Ecology, in particular towards the study of Social Organization and Evolution, as well as Animal Communication."
 output: vitae::twentyseconds
