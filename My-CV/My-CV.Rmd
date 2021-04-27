@@ -1,17 +1,18 @@
 ---
-name: Marie
-surname: Curie
-position: "Professor"
-address: "School of Physics & Chemistry, Ã‰cole Normale SupÃ©rieure"
-phone: +1 22 3333 4444
+name: "Daniel Sebastián"
+surname: "Rodríguez León"
+position: "Ph.D. Student"
+address: "Julius-Maximilians-Universitaet Wuerzburg"
+phone: +49 15788101479
 profilepic: mariecurie.jpg
 www: mariecurie.com
-email: "Marie.Curie@ens.fr"
+email: "daniel.rodriguez@stud-mail.uni-wuerzburg.de"
 twitter: mariecurie
-github: mariecurie
-linkedin: mariecurie
+github: dsrodriguezl
+orcid: 0000-0001-9637-1364
+linkedin: daniel-rodríguez-león-0844b372
 date: "`r format(Sys.time(), '%B %Y')`"
-aboutme: "Marie is a Polish and naturalized-French physicist and chemist who conducts pioneering research on radioactivity."
+aboutme: "Biologist with a great interest in Behavioral and Chemical Ecology, in particular towards the study of Social Organization and Evolution, as well as Animal Communication."
 output: vitae::twentyseconds
 ---
 
