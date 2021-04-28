@@ -1,0 +1,159 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Twenty Seconds Resume/CV
+% LaTeX Template
+% Version 1.1 (8/1/17)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by
+% Vel (vel@LaTeXTemplates.com)
+%
+% Adapted to be an Rmarkdown template by Rob J Hyndman
+% 23 November 2018
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt,a4paper,]{twentysecondcv}
+
+\usepackage[scaled=0.86]{DejaVuSansMono}
+
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{csquotes}
+
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+
+\usepackage{booktabs}
+
+
+
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+
+% Profile pic
+\profilepic{}
+
+\cvname{DanielRodriguez} % Your name
+
+\cvjobtitle{Ph.D.~Student} % Job title/career
+\cvdate{April 2021} % Date of birth or date of CV??
+\cvaddress{JMU-Wuerzburg} % Short address/location, use \newline if more than 1 line is required
+\cvnumberphone{} % Phone number
+\cvsite{\href{http://\url{https://www.researchgate.net/profile/Daniel-Rodriguez-Leon}}{\url{https://www.researchgate.net/profile/Daniel-Rodriguez-Leon}}} % Personal website
+\cvmail{\href{mailto:daniel.rodriguez@stud-mail.uni-wuerzburg.de}{\nolinkurl{daniel.rodriguez@stud-mail.uni-wuerzburg.de}}} % Email address
+\cvtwitter{}
+\cvgithub{\href{https://github.com/dsrodriguezl}{dsrodriguezl}}
+\cvlinkedin{\href{https://www.linkedin.com/in/dsrodriguezl}{dsrodriguezl}}
+
+\lfoot{\sf CV: Daniel Rodriguez}
+\rfoot{\sf\thepage}
+
+% Pandoc CSL macros
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newenvironment{CSLReferences}[3] % #1 hanging-ident, #2 entry spacing
+ {% don't indent paragraphs
+  \setlength{\parindent}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1 \everypar{\setlength{\hangindent}{\cslhangindent}}\ignorespaces\fi
+  % set entry spacing
+  \ifnum #2 > 0
+  \setlength{\parskip}{#2\baselineskip}
+  \fi
+ }%
+ {}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{#1\hfill\break}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{#1}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{#1}}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+
+\begin{document}
+\aboutme{I am a biologist with a great interest in Behavioral and
+Chemical Ecology}
+
+% Skill bar section, each skill must have a value between 0 an 6 (float)
+%\skills{{pursuer of rabbits/5.8},{good manners/4},{outgoing/4.3},{polite/4},{Java/0.01}}
+
+% Skill text section, each skill must have a value between 0 an 6
+%\skillstext{{lovely/4},{narcissistic/3}}
+
+\makeprofile % Print the sidebar
+
+
+
+
+\hypertarget{higher-education}{%
+\section{Higher Education}\label{higher-education}}
+
+\nopagebreak
+
+\begin{twenty}
+    \twentyitem{2011-2016}{Bachelor of Science Biology}{Universidad Nacional de Colombia}{Bogota, Colombia\par\begin{minipage}{0.7\textwidth}%
+\begin{itemize}%
+\item Bachelor thesis: Variation of the relative abundance and diet of dogs (Canis lupus familiaris) on a gradient of human presence in a natural preserve of the civil society (Tabio, Cundinamarca).%
+\end{itemize}%
+\end{minipage}}
+    \twentyitem{2017-2020}{Master of Science Biosciences}{Julius-Maximilians-Universitaet Wuerzburg}{Wuerzburg, Germany\par\begin{minipage}{0.7\textwidth}%
+\begin{itemize}%
+\item Master thesis: Variation of cuticular hydrocarbon profiles among honeybee workers from different European subspecies.%
+\end{itemize}%
+\end{minipage}}
+\end{twenty}
+
+\hypertarget{professional-experience}{%
+\section{Professional experience}\label{professional-experience}}
+
+\hypertarget{continuing-education}{%
+\section{Continuing Education}\label{continuing-education}}
+
+\hypertarget{publications}{%
+\section{Publications}\label{publications}}
+
+\hypertarget{bibliography}{}
+\leavevmode\hypertarget{ref-RodriguezLeon2019}{}%
+\CSLLeftMargin{1. }
+\CSLRightInline{RodrÃ­guez LeÃ³n, D. S., \& LÃ³pez ArÃ©valo, H. F.
+(2019). VariaciÃ³n de la abundancia relativa de perros en un gradiente
+de presencia humana en dos reservas privadas (Tabio, Cundinamarca).
+\emph{Acta BiolÃ³gica Colombiana}, \emph{24}(2), 379--390.
+\url{https://doi.org/10.15446/abc.v24n2.70608}}
+
+\hypertarget{additional-qualifications}{%
+\section{Additional Qualifications}\label{additional-qualifications}}
+
+\nopagebreak
+
+\begin{twentyshort}
+    \twentyitemshort{Microsoft Office (Word, Excel, PowerPoint, oneNote)}{Software. Good knowledge (User)}
+    \twentyitemshort{R}{Software. Basic knowledge}
+    \twentyitemshort{RMarkdown}{Software. Basic knowledge}
+    \twentyitemshort{Git}{Software. Beginner}
+    \twentyitemshort{Markdown}{Software. Beginner}
+    \twentyitemshort{Spanish}{Languages. Mother tongue}
+    \twentyitemshort{English}{Languages. Advance (C1)}
+    \twentyitemshort{German}{Languages. Intermediate (B2)}
+\end{twentyshort}
+
+
+\end{document}

@@ -1,6 +1,6 @@
 ---
 name: Daniel
-surname: Rodr{\'{i}}guez
+surname: Rodriguez
 position: "Ph.D. Student"
 address: "JMU-Wuerzburg"
 email: "daniel.rodriguez@stud-mail.uni-wuerzburg.de "
@@ -9,7 +9,7 @@ www: https://www.researchgate.net/profile/Daniel-Rodriguez-Leon
 linkedin: dsrodriguezl
 github: dsrodriguezl
 date: "`r format(Sys.time(), '%B %Y')`"
-aboutme: "Biologist with a great interest in Behavioral and Chemical Ecology"
+aboutme: "I am a biologist with a great interest in Behavioral and Chemical Ecology"
 docname: CV
 output: vitae::twentyseconds
 ---
@@ -25,35 +25,15 @@ library(vitae)
 library(tibble)
 tribble(
   ~ Degree, ~ Year, ~ Institution, ~ Where, ~Detail,
-  "Bachelor of Science Biology", "2011-2016", "Universidad Nacional de Colombia", "Bogot{\'{a}}, Colombia", "Bachelor thesis: Variation of the relative abundance and diet of dogs (Canis lupus familiaris) on a gradient of human presence in a natural preserve of the civil society (Tabio, Cundinamarca).",
-  "Master of Science Biosciences", "2017-2020", "Julius-Maximilians-Universität Würzburg", "Würzburg, Germany", "Master thesis: Variation of cuticular hydrocarbon profiles among honeybee workers from different European subspecies."
+  "Bachelor of Science Biology", "2011-2016", "Universidad Nacional de Colombia", "Bogota, Colombia", "Bachelor thesis: Variation of the relative abundance and diet of dogs (Canis lupus familiaris) on a gradient of human presence in a natural preserve of the civil society (Tabio, Cundinamarca).",
+  "Master of Science Biosciences", "2017-2020", "Julius-Maximilians-Universitaet Wuerzburg", "Wuerzburg, Germany", "Master thesis: Variation of cuticular hydrocarbon profiles among honeybee workers from different European subspecies."
 ) %>% 
   detailed_entries(Degree, Year, Institution, Where, Detail)
 ```
 
 # Professional experience
 
-```{r}
-library(tibble)
-tribble(
-  ~ Degree, ~ Year, ~ Institution, ~ Where, ~Detail,
-  "Bachelor of Science Biology", "2011-2016", "Universidad Nacional de Colombia", "Bogota, Colombia", "Bachelor thesis: Variation of the relative abundance and diet of dogs (Canis lupus familiaris) on a gradient of human presence in a natural preserve of the civil society (Tabio, Cundinamarca).",
-  "Master of Science Biosciences", "2017-2020", "Julius-Maximilians-Universitaet Wuerzburg", "Wuerzburg, Germany", "Master thesis: Variation of cuticular hydrocarbon profiles among honeybee workers from different European subspecies."
-) %>% 
-  detailed_entries(Degree, Year, Institution, Where, Detail)
-```
-
 # Continuing Education
-
-```{r}
-library(tibble)
-tribble(
-  ~ Degree, ~ Year, ~ Institution, ~ Where, ~Detail,
-  "Bachelor of Science Biology", "2011-2016", "Universidad Nacional de Colombia", "Bogota, Colombia", "Bachelor thesis: Variation of the relative abundance and diet of dogs (Canis lupus familiaris) on a gradient of human presence in a natural preserve of the civil society (Tabio, Cundinamarca).",
-  "Master of Science Biosciences", "2017-2020", "Julius-Maximilians-Universitaet Wuerzburg", "Wuerzburg, Germany", "Master thesis: Variation of cuticular hydrocarbon profiles among honeybee workers from different European subspecies."
-) %>% 
-  detailed_entries(Degree, Year, Institution, Where, Detail)
-```
 
 # Publications
 
@@ -80,11 +60,3 @@ tribble(
 ) %>% 
   brief_entries(Area, Qualification, Proficiency)
 ```
-
-# Some stuff about me
-
- * Organized and independent in settling and conducting scientific experiments
- * Interest in interdisciplinary and intercultural research collaborations
- * Strong background in chemical ecology (i.e. GC-MS analysis)
- * Solid theoretical knowledge of behavioral ecology (e.g. Social evolution and division of labor)
-
