@@ -9,9 +9,9 @@ www: https://www.researchgate.net/profile/Daniel-Rodriguez-Leon
 linkedin: dsrodriguezl
 github: dsrodriguezl
 date: "`r format(Sys.time(), '%B %Y')`"
-aboutme: "Biologist with a great interest in Behavioral and Chemical Ecology, in particular towards the study of Social Organization and Evolution, as well as Animal Communication."
+aboutme: "Biologist with a great interest in Behavioral and Chemical Ecology"
 docname: CV
-output: vitae::awesomecv
+output: vitae::twentyseconds
 ---
 
 ```{r setup, include=FALSE}
@@ -59,9 +59,8 @@ tribble(
 
 ```{r}
 library(dplyr)
-knitr::write_bib(c("vitae", "tibble"), "packages.bib")
 
-bibliography_entries("packages.bib") %>%
+bibliography_entries("bib.bib") %>%
   arrange(desc(author$family), issued)
 ```
 
