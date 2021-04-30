@@ -8,7 +8,7 @@ I made my CV in several languages using RMarkdown.
 Each language version was created independently, but all will be stored in the same repository.
 
 ## Español
-Cree mi hoja de vide con RMarkdown.
+Cree mi hoja de vida con RMarkdown.
 La versión de cada idioma fue creada de forma independiente, pero todas están almacenada en el mismo repositorio.
 
 ## Deutsch
