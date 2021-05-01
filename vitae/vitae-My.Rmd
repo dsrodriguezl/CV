@@ -2,7 +2,7 @@
 name: Daniel
 surname: Rodríguez
 position: "Ph.D. Student"
-address: "JMU-Wuerzburg"
+address: "Julius-Maximilians-Universitaet Wuerzburg"
 #phone: 
 #profilepic: Mifoto.jpg #The photo is not properly adjusted
 #www: "researchgate.net/profile/Daniel-Rodriguez-Leon"
@@ -12,6 +12,7 @@ researchgate: Daniel-Rodriguez-Leon
 linkedin: dsrodriguezl
 github: dsrodriguezl
 date: "`r format(Sys.time(), '%B %Y')`"
+headcolor: "870000"
 aboutme: "I am Daniel Sebastián Rodríguez León, a colombian biologist with a great interest in Behavioral and Chemical Ecology, in particular towards the study of Social Organization and Evolution, as well as Animal Communication."
 output: vitae::awesomecv
 ---
@@ -31,7 +32,10 @@ tribble(
    ~ Degree,  ~ Year, ~ Institution,  ~ Where, ~ detail,
   "Bachelor of Science Biology", "2011 - 2016", "Universidad Nacional de Colombia", "Bogotá, Colombia", NA,
   
-  "Master of Science Biosciences", "2017 - 2020", "Julius-Maximilians-Universitaet Wuerzburg",  "Wuerzburg, Germany", NA
+  "Master of Science Biosciences", "2017 - 2020", "Julius-Maximilians-Universitaet Wuerzburg", "Wuerzburg, Germany", NA,
+  
+  "Doctor of Philosophy Biosciences", "2020 -Present", "Julius-Maximilians-Universitaet Wuerzburg", "Wuerzburg, Germany", NA
+  
 ) %>% 
   detailed_entries(with =  Degree, what = Institution, when = Year, where = Where, why = detail)
 ```
@@ -58,17 +62,34 @@ tribble(
 
 ```{r}
 library(tibble)
+
 tribble(
    ~ Degree,  ~ Year, ~ Institution,  ~ Where, ~ detail,
   "Models of Species Distribution", "September 2016 - February 2017", "Faculty of Science, Universidad Nacional de Colombia", "Bogotá, Colombia", NA,
   
-  "International Competences", "April - July 2018", "Faculty of Biology, Julius-Maximilians-Universitaet Wuerzburg",
+  "Intercultural Competences", "April - July 2018", "Faculty of Biology, Julius-Maximilians-Universitaet Wuerzburg",
   "Wuerzburg, Germany", NA,
   
   "Social Evolution", "November 2019", "Faculty of Science, University of Copenhagen", "Copenhagen, Denmark", NA
   
 ) %>% 
   detailed_entries(with =  Degree, what = Institution, when = Year, where = Where, why = detail)
+```
+
+# Posters & Presentations
+
+```{r}
+library(tibble)
+
+tribble(
+   ~ Title,  ~ Year, ~ Unit,  ~ Where, ~ detail,
+  "Poster: Research of the biology and behavior of feral dogs in the PNN Chingaza, for an understanding of their ecological role - Project presentation", "December 2014", "II Symposium of Animal Behavior, IV Colombian Congress of Zoology",
+  "Cartagena D.T., Colombia", NA,
+  
+  "Presentation: Variation of the relative abundance and diet of dogs (*C. lupus familiaris*) on a gradient of human presence in a natural preserve of the civil society (Tabio, Cundinamarca)", "May 2016", "Symposium of bachelor theses 2016-I, Faculty of Science, Universidad Nacional de Colombia", "Bogotá, Colombia", NA
+  
+) %>% 
+  detailed_entries(with =  Title, what = Unit, when = Year, where = Where, why = detail)
 ```
 
 # Publications
@@ -78,5 +99,61 @@ library(dplyr)
 
 bibliography_entries("BIB.bib") %>%
   arrange(desc(author$family), issued)
+```
+
+\newpage
+
+# Grants and Fellowships
+
+```{r}
+library(dplyr)
+
+tribble(
+  ~ Type, ~ Institution, ~ Year, ~ Where, 
+  "Doctoral fellowship", "Foreigners promotion, Konrad-Adenauer-Stiftung", "January 2021 - Present", "Wuerzburg, Germany"
+) %>%  
+  detailed_entries(with = Type, what = Institution, when = Year, where = Where)
+
+```
+
+# Voluntary work
+
+```{r}
+library(dplyr)
+
+tribble(
+  ~ Type, ~ Institution, ~ Year, ~ Where,
+  "International Student Tutor", "Kompass Program, Faculty of Biology, Julius-Maximilians-Universitaet Wuerzburg",
+  "September 2020 - Present", "Wuerzburg, Germany"
+ 
+) %>%  
+  detailed_entries(with = Type, what = Institution, when = Year, where = Where)
+
+```
+
+
+# Additional Qualifications
+
+```{r}
+library(dplyr)
+
+tribble(
+  ~ Area, ~ Qualification,
+ "Offimatic Applications", "MS Office: Good Knowledge (User)",
+ 
+  "Programming languages", "R: Basic knowledge",
+  NA, "Python: Basic knowledge",
+ 
+  "Markup languages", "RMarkdown: Basic knowledge",
+  NA, "Markdown: Basic knowledge",
+ 
+  "Version control", "Git: Basic knowledge",
+  
+  "Languages", "Spanish: Mother Tongue",
+  NA, "English: Advance (C1)",
+  NA, "German: Intermediate (B2)"
+ 
+) %>%  
+  detailed_entries(with = Area, what = Qualification)
 ```
 
