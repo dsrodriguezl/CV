@@ -1,16 +1,18 @@
 ---
-name: Daniel    
-surname:    Rodríguez
+name: Daniel
+surname: Rodríguez
 position: "Ph.D. Student"
 address: "JMU-W&uuml;rzburg"
 #phone: 
 #profilepic: Mifoto.jpg #The photo is not properly adjusted
-#www: 
+#www: "researchgate.net/profile/Daniel-Rodriguez-Leon"
 email: "daniel.rodriguez@stud-mail.uni-wuerzburg.de"
+orcid: 0000-0001-9637-1364
+researchgate: Daniel-Rodriguez-Leon
 linkedin: dsrodriguezl
 github: dsrodriguezl
 date: "`r format(Sys.time(), '%B %Y')`"
-aboutme: "dsrodriguezl"
+aboutme: "My full name is Daniel Sebastián Rodríguez León. I am a biologist with a great interest in Behavioral and Chemical Ecology, in particular towards the study of Social Organization and Evolution, as well as Animal Communication."
 output: vitae::awesomecv
 ---
 
