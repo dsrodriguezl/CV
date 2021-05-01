@@ -1,8 +1,8 @@
 ---
-name: Daniel
-surname: Rodriguez
+name: Daniel 
+surname:  Rodríguez
 position: "Ph.D. Student"
-address: "JMU-Wuerzburg"
+address: "JMU-W&uuml;rzburg"
 #phone: 
 #profilepic: 
 #www: 
