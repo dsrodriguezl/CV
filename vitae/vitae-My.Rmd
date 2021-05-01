@@ -2,7 +2,7 @@
 name: Daniel
 surname: Rodríguez
 position: "Ph.D. Student"
-address: "JMU-W&uuml;rzburg"
+address: "JMU-Wuerzburg"
 #phone: 
 #profilepic: Mifoto.jpg #The photo is not properly adjusted
 #www: "researchgate.net/profile/Daniel-Rodriguez-Leon"
@@ -28,27 +28,22 @@ library(vitae)
 ```{r}
 library(tibble)
 tribble(
-  ~ Degree, ~ Year, ~ Institution, ~ Where,
-  "Informal studies", "1889-91", "Flying University", "Warsaw, Poland",
-  "Master of Physics", "1893", "Sorbonne Université", "Paris, France",
-  "Master of Mathematics", "1894", "Sorbonne Université", "Paris, France"
+   ~ Degree,  ~ Year, ~ Institution,  ~ Where, ~ detail,
+  "Bachelor of Science Biology", "2011 - 2016", "Universidad Nacional de Colombia", "Bogotá, Colombia", NA,
+  "Master of Science Biosciences", "2017 - 2020", "Julius-Maximilians-Universitaet Wuerzburg",  "Wuerzburg, Germany", NA
 ) %>% 
-  detailed_entries(Degree, Year, Institution, Where)
+  detailed_entries(with =  Degree, what = Institution, when = Year, where = Where, why = detail)
 ```
 
-# Nobel Prizes
+# Professional Experience
 
 ```{r}
+library(tibble)
 tribble(
-  ~Year, ~Type, ~Desc,
-  1903, "Physics", "Awarded for her work on radioactivity with Pierre Curie and Henri Becquerel",
-  1911, "Chemistry", "Awarded for the discovery of radium and polonium"
+  ~ Title, ~Unit, ~ Year, ~ Where, ~detail,
+  "Internship", "Biodiversity Sciences program of the Line of Risk Assessment and Wildlife", "August 2016 - February 2017", " Instituto Alexander von Humboldt (Bogotá, Colombia)"
 ) %>% 
-  brief_entries(
-    glue::glue("Nobel Prize in {Type}"),
-    Year, 
-    Desc
-  )
+  detailed_entries(with = Title, what = Unit, when = Year, where = Where, why = detail)
 ```
 
 # Publications
