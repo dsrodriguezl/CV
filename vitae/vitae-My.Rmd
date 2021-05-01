@@ -30,6 +30,7 @@ library(tibble)
 tribble(
    ~ Degree,  ~ Year, ~ Institution,  ~ Where, ~ detail,
   "Bachelor of Science Biology", "2011 - 2016", "Universidad Nacional de Colombia", "Bogotá, Colombia", NA,
+  
   "Master of Science Biosciences", "2017 - 2020", "Julius-Maximilians-Universitaet Wuerzburg",  "Wuerzburg, Germany", NA
 ) %>% 
   detailed_entries(with =  Degree, what = Institution, when = Year, where = Where, why = detail)
@@ -41,19 +42,41 @@ tribble(
 library(tibble)
 tribble(
   ~ Title, ~Unit, ~ Year, ~ Where, ~detail,
-  "Internship", "Biodiversity Sciences program of the Line of Risk Assessment and Wildlife, Instituto Alexander von Humboldt", "August 2016 - February 2017", "Bogotá, Colombia", NA,
+  "Internship", "Biodiversity Sciences program of the Line of Risk Assessment and Wildlife, Instituto Alexander von Humboldt",
+  "August 2016 - February 2017", "Bogotá, Colombia", NA,
   
+  "Biology teacher", "Grupo Formarte S.A.S", "August 2016 - February 2017",  "Bogotá, Colombia",
+  "Topics: biomolecules, protein synthesis, basic cell biology, genetics, metabolism, plants and animal systems, ecology, and evolution.",
+  
+  "International Student Tutor", "Kompass Program, Faculty of Biology, Julius-Maximilians-Universitaet Wuerzburg",
+  "November 2018 - September 2020", "Wuerzburg, Germany", NA
 ) %>% 
   detailed_entries(with = Title, what = Unit, when = Year, where = Where, why = detail)
+```
+
+# Continuing Education
+
+```{r}
+library(tibble)
+tribble(
+   ~ Degree,  ~ Year, ~ Institution,  ~ Where, ~ detail,
+  "Models of Species Distribution", "September 2016 - February 2017", "Faculty of Science, Universidad Nacional de Colombia", "Bogotá, Colombia", NA,
+  
+  "International Competences", "April - July 2018", "Faculty of Biology, Julius-Maximilians-Universitaet Wuerzburg",
+  "Wuerzburg, Germany", NA,
+  
+  "Social Evolution", "November 2019", "Faculty of Science, University of Copenhagen", "Copenhagen, Denmark", NA
+  
+) %>% 
+  detailed_entries(with =  Degree, what = Institution, when = Year, where = Where, why = detail)
 ```
 
 # Publications
 
 ```{r}
 library(dplyr)
-knitr::write_bib(c("vitae", "tibble"), "packages.bib")
 
-bibliography_entries("packages.bib") %>%
+bibliography_entries("BIB.bib") %>%
   arrange(desc(author$family), issued)
 ```
 
