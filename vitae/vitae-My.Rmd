@@ -1,17 +1,17 @@
 ---
-name: Daniel 
-surname:  Rodríguez
+name: Daniel    
+surname:    Rodríguez
 position: "Ph.D. Student"
 address: "JMU-W&uuml;rzburg"
 #phone: 
-#profilepic: 
+#profilepic: Mifoto.jpg #The photo is not properly adjusted
 #www: 
 email: "daniel.rodriguez@stud-mail.uni-wuerzburg.de"
 linkedin: dsrodriguezl
 github: dsrodriguezl
 date: "`r format(Sys.time(), '%B %Y')`"
 aboutme: "dsrodriguezl"
-output: vitae::twentyseconds
+output: vitae::awesomecv
 ---
 
 ```{r setup, include=FALSE}
