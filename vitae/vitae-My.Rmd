@@ -23,7 +23,7 @@ knitr::opts_chunk$set(echo = FALSE,
 library(vitae)
 ```
 
-# Education
+# Higher Education
 
 ```{r}
 library(tibble)
