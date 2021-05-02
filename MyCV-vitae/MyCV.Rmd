@@ -2,8 +2,8 @@
 name: Daniel
 surname: Rodríguez
 position: "Ph.D. Student"
-address: "Julius-Maximilians-Universitaet Wuerzburg"
-#phone: 
+address: "JMU-Wuerzburg, Biocentre, Offie C015"
+phone: 0931 31-82967
 #profilepic: Mifoto.jpg
 #www: "researchgate.net/profile/Daniel-Rodriguez-Leon"
 email: "daniel.rodriguez@stud-mail.uni-wuerzburg.de"
