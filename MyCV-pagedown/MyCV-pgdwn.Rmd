@@ -1,6 +1,6 @@
 ---
-title: "Lijia Yu's resume"
-author: Lijia Yu
+title: "Daniel's resume"
+author: Daniel Rodríguez
 date: "`r Sys.Date()`"
 output:
   pagedown::html_resume:
@@ -14,26 +14,22 @@ Aside
 ================================================================================
 
 
-![Daniel R](C:/Users/danyr/OneDrive/Escritorio/My-photo_sqr.jpg){width=90%}
+![Daniel R](https://github.com/dsrodriguezl/CV/raw/TRIAL/My-photo.jpg){width=90%}
 
 
 Contact Info {#contact}
 --------------------------------------------------------------------------------
 
-- <i class="fa fa-envelope"></i> lijia.yu@outlook.com
-- <i class="fa fa-github"></i> [github.com/yulijia](https://github.com/yulijia)
-- <i class="fa fa-phone"></i> +1 000-000-0000
+- <i class="fa fa-envelope"></i> 
+- <i class="fa fa-github"></i> []()
+- <i class="fa fa-phone"></i> +## ###-###-####
 - For more information, please contact me via email.
 
 
 Skills {#skills}
 --------------------------------------------------------------------------------
 
-- Experienced in statistical analysis, statistical learning models, and optimization methods.
 
-- Full experience with next generation sequencing data analysis.
-
-- Highly skilled in R, Bash, Perl, Python, LaTeX
 
 
 Disclaimer {#disclaimer}
@@ -48,40 +44,36 @@ Last updated on `r Sys.Date()`.
 Main
 ================================================================================
 
-Lijia Yu {#title}
+Daniel Rodríguez {#title}
 --------------------------------------------------------------------------------
 
-### Currently searching for a PhD student position
+### Currently working as a PhD student
 
-Please note that this is a *real* resume, and I'm really looking for a PhD
-student position at the moment. I made this resume because Yihui asked me
-if I'd like to test the **pagedown** package with my resume. If you are
-interested in my background and skills, please feel free to contact me.
+
 
 
 Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
 
-### Beijing University of Chemical Technology
+### Institution
 
-B.S. in Information and Computing Sciences
+B. Sc. Degree
 
-Beijing, China
+Place
 
-2010
+Time
 
-Thesis: Dyadic wavelet and its application in edge detection
+Thesis: -------
 
-### University of Chinese Academy of Sciences
+### Institution
 
-M.S. in Bioinformatics
+M. Sc. Degree
 
-Beijing, China
+Place
 
-2014
+Time
 
-Thesis: A multi-omics study for intra-individual divergence of the distributions between mRNA isoforms in mammals
-
+Thesis: -------
 
 Research Experience {data-icon=laptop}
 --------------------------------------------------------------------------------
