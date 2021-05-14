@@ -1,8 +1,6 @@
 # Curriculum Vitae
 Mi Hoja de vida / My Curriculum Vitae / Mein Lebenslauf
 
-Sin foto / Without photo / Ohne Bild
-
 ## English
 I made my CV in several languages using RMarkdown.
 Each language version was created independently, but all will be stored in the same repository.
