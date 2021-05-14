@@ -211,10 +211,14 @@ Selected Publications {data-icon=file-contract}
 
 Acta biol. Colomb. May 2019. 24(2), 379-390.
 
-[DOI: 10.15446/abc.v24n2.70608](https://doi.org/10.15446/abc.v24n2.70608)
-Year 
+N/A
 
-**Rodríguez León, D. S.**, & López Arévalo, H. F.  
+2019
+
+- **Rodríguez León, D. S.**, & López Arévalo, H. F.  
+- [DOI: 10.15446/abc.v24n2.70608](https://doi.org/10.15446/abc.v24n2.70608)
+
+
 
 Grants and Fellowships {data-icon=trophy}
 --------------------------------------------------------------------------------
