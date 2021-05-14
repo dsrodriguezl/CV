@@ -1,0 +1,115 @@
+@page{
+  size: letter portrait;
+  margin: 1in 0.5in 0.5in 0.25in;
+}
+
+/* Defines the font family and style */
+body {
+  font-family: "Browallia", Sans-serif; /* Entries content text (e.g. detail, Skills)*/
+  font-weight: 300;
+  line-height: 1.3;
+  color: #444;
+}
+
+h1  {
+font-family: 'Browallia', serif; /* Title (name) */
+color: #000;
+}
+h2,
+h3 {
+  font-family: "Browallia", serif;
+  color: #000;
+}
+
+
+/* Avoid the breaking within a section */
+.blocks {
+  break-inside: avoid;
+}
+
+* {
+  /* Override default right margin for sidebar*/
+  --pagedjs-margin-right: 0.2in;
+  --pagedjs-margin-left: 0.2in;
+}
+
+/* Customize some of the sizing variables */
+:root {
+  --sidebar-width: 12rem; /* Shrink sidebar width  */
+  --sidebar-background-color: #ede3de; /* Sidebar warm color */
+  --sidebar-horizontal-padding: 0.01in; /* Reduce sidebar padding */
+  --decorator-outer-dim: 10px; /* Make position deliniating circles larger */
+  --decorator-border: 2px solid #bf1600; /* Make timeline a dark red*/
+}
+
+.details .place {
+  margin-top: 0.25rem;
+}
+
+.main-block:not(.concise) .details div {
+  padding-top: 0.005rem;
+}
+
+.fa-trophy {
+  margin-left: -2px;
+}
+
+.fa-handshake {
+  margin-left: -3px;
+}
+
+/* When we have links at bottom in a list make sure they actually are numbered */
+#links li {
+  list-style-type: decimal;
+}
+
+/* Dont put the little fake list point in front of links */
+.aside li::before {
+  display: none;
+}
+
+/* Move closer to start and up towards header */
+.aside ul {
+  padding-left: 1rem;
+}
+
+.aside li::before {
+  position: relative;
+  margin-left: -4.25pt;
+  content: ". ";
+}
+
+/* Make sure elements in asside are centered and have a nice small text */
+.aside {
+/*  width: calc(var(--sidebar-width) + 10px);
+  line-height: 1.2;*/
+  font-size: 0.70rem;
+}
+
+
+/* Remove the fake bullets from lists */
+.aside li::before {
+  content: auto;
+}
+
+
+/* When the class no-timeline is added we remove the after psuedo element from the header... */
+
+/* Removes the psuedo element on h2 tags for this section */
+.section.no-timeline h2::after {
+  content: none;
+}
+
+/* Without adding padding the content is all up on the title */
+.section.no-timeline h2 {
+  padding-bottom: 1rem;
+}
+
+/* Add styles for little cards  */
+.info-card{
+  width: 220px;    
+  float: left;    
+  padding: 0.5rem;
+  margin: 0.5rem;
+  box-shadow: 1px 1px 4px black;
+}
