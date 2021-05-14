@@ -176,81 +176,64 @@ Selected Presentations and Posters {data-icon=chalkboard-teacher}
 
 ### Variation of the relative abundance and diet of dogs (_C. lupus familiaris_) on a gradient of human presence in a natural preserve of the civil society (Tabio, Cundinamarca)
 
-Presentation. Symposium of Bachelor Theses 2016-I, Faculty of Science, Universidad Nacional de Colombia
+Symposium of Bachelor Theses 2016-I, Faculty of Science, Universidad Nacional de Colombia
 
 Bogotá D.C., Colombia
 
 May 2016
 
-**Daniel Rodríguez**
+- Presentation
 
 ### Research of the biology and behavior of feral dogs in the PNN Chingaza, for an understanding of their ecological role
 
-Video Poster. II Symposium of Animal Behavior, IV Colombian Congress of Zoology
+II Symposium of Animal Behavior, IV Colombian Congress of Zoology
 
 Cartagena D.T., Colombia
 
 December 2014
 
-**Daniel Rodríguez**, Leonardo Gacría, and David Quinche
+- Video Poster
 
 ### Variation of the cuticular hydrocarbon profiles among honeybees workers with different social roles and between different _Apis mellifera_ subspecies
 
-Flash Presentation. 68th Annual Meeting of the Working Group of the Institutes for Bee Reserach e.V.
+68th Annual Meeting of the Working Group of the Institutes for Bee Reserach e.V.
 
 Virtual Meeting via Zoom
 
 March 24 2021
 
-**Daniel Rodríguez**
+- Flash Presentation
 
 Selected Publications {data-icon=file-contract}
 --------------------------------------------------------------------------------
 
-### Title
+### Variación de la abundancia relativa de perros en un gradiente de presencia humana en dos reservas privadas (Tabio, Cundinamarca)
 
-Abrev, journal Year Month ##;###(##):###-###.
+Acta biol. Colomb. May 2019. 24(2), 379-390.
 
-N/A
-
+[DOI: 10.15446/abc.v24n2.70608](https://doi.org/10.15446/abc.v24n2.70608)
 Year 
 
-1st Author, **Me (author)**, others / et al. 
+**Rodríguez León, D. S.**, & López Arévalo, H. F.  
 
 Grants and Fellowships {data-icon=trophy}
 --------------------------------------------------------------------------------
 
-### Title
+### Doctoral fellowship
 
-Insitution
+Foreigners promotion of the Konrad-Adenauer-Stiftung
 
-Place
+W&uuml;rzburg, Germany
 
-Year(s)
+January 2021 - Present
 
 Voluntary work {data-icon=handshake}
 --------------------------------------------------------------------------------
 
-### Position
+### International Student Tutor
 
-Institution
+Kompass Program, Faculty of Biology, Julius-Maximilians-Universit&auml;t W&uuml;rzburg
 
-Place
+W&uuml;rzburg, Germany
 
-Year - Year
-
-- details
-
-### Position
-
-Institution
-
-Place
-
-Year - Year
-
-::: concise
-- details in two columns
-- details in two columns
-:::
-
+September 2020 - Present
