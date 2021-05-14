@@ -25,10 +25,7 @@ output:
 
 Aside
 ================================================================================
-
-
-![Daniel R](https://github.com/dsrodriguezl/CV/raw/TRIAL/My-photo.jpg){width=90%}
-
+  ![Daniel R](https://raw.githubusercontent.com/dsrodriguezl/CV/TRIAL/My-photo.jpg){width=80%}
 
 Contact Info {#contact}
 --------------------------------------------------------------------------------
@@ -39,23 +36,28 @@ Contact Info {#contact}
 -  `r icons::academicons("orcid")` [0000-0001-9637-1364](https://orcid.org/0000-0001-9637-1364)
 - `r icons::fontawesome("linkedin")` [dsrodriguezl](https://www.linkedin.com/in/dsrodriguezl)
 - `r icons::academicons("researchgate")` [Daniel-Rodriguez-Leon](https://www.researchgate.net/profile/Daniel-Rodriguez-Leon-2)
-- `r icons::fontawesome("location-arrow")` [University of W&uuml;rzburg, Biocenter - Office C015](https://wueaddress.uni-wuerzburg.de/building/4444)
-- For more information, please contact me via email.
-
+- `r icons::fontawesome("location-arrow")` [University of W&uuml;rzburg, Biocenter - Off. C015](https://wueaddress.uni-wuerzburg.de/building/4444)
 
 Skills {#skills}
 --------------------------------------------------------------------------------
-
-
-
+  - **^MS^** **^Office:^** ^Intermediate^ ^(User)^
+  - **^R:^** ^Basic^
+  - **^Python:^** ^Beginner^
+  - **^RMarkdown:^**  ^Basic^
+  - **^Markdown:^** ^Intermediate^
+  - **^Git:^** ^Beginner^
+- **^Languages:^**
+  - **^Spanish:^** ^Mother^ ^tongue^
+  - **^English:^** ^Advanced^ ^(C1)^
+  - **^German:^** ^Intermediate^ ^(B2)^
 
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
 
+
 This resume was made with the R package [**pagedown**](https://github.com/rstudio/pagedown).
 
 Last updated on `r Sys.Date()`.
-
 
 
 Main
@@ -67,9 +69,7 @@ Daniel Rodríguez {#title}
 I am Daniel Sebastián Rodríguez León, a colombian biologist with a great interest in Behavioral and Chemical Ecology, in particular towards the study of Social Organization and Evolution, as well as Animal Communication.
 
 
-
-
-Education {data-icon=graduation-cap data-concise=true}
+Higher Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
 
 ### Institution
@@ -117,6 +117,17 @@ Year - Year
 - details in two columns
 :::
 
+Continuing Education {data-icon=book data-concise=true}
+--------------------------------------------------------------------------------
+
+### Course
+
+Institution
+
+Place
+
+Time
+
 
 Selected Presentations and Posters {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
@@ -154,3 +165,29 @@ Insitution
 Place
 
 Year(s)
+
+Voluntary work {data-icon=people}
+--------------------------------------------------------------------------------
+
+### Position
+
+Institution
+
+Place
+
+Year - Year
+
+- details
+
+### Position
+
+Institution
+
+Place
+
+Year - Year
+
+::: concise
+- details in two columns
+:::
+
