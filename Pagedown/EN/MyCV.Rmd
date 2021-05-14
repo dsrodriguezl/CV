@@ -56,7 +56,6 @@ Skills {#skills}
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
 
-
 This resume was made with the R package [**pagedown**](https://github.com/rstudio/pagedown).
 
 Last updated on `r Sys.Date()`.
@@ -74,62 +73,103 @@ I am Daniel Sebastián Rodríguez León, a colombian biologist with a great inte
 Higher Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
 
-### Institution
+### Bachelor of Science Biology
 
-B. Sc. Degree
+Universidad Nacional de Colombia
 
-Place
+Bogotá D.C., Colombia
 
-Time
+2011 - 2016
 
-Thesis: -------
+Thesis: Variation of the relative abundance and diet of dogs (_Canis lupus familiaris_) on a gradient of human presence in a natural preserve of the civil society (Tabio, Cundinamarca)
 
-### Institution
+### Master of Science Biosciences
 
-M. Sc. Degree
+Julius-Maximilians-Universit&auml;t  W&uuml;rzburg
 
-Place
+W&uuml;rzburg, Germany
 
-Time
+2017 - 2020
 
-Thesis: -------
+Thesis: Variation of cuticular hydrocarbon profiles among honeybee workers from different European subspecies
+
+### Doctor of Philosophy Biosciences
+
+Julius-Maximilians-Universit&auml;t  W&uuml;rzburg
+
+W&uuml;rzburg, Germany
+
+2020 - Present
+
+Thesis: Variation of cuticular hydrocarbon profiles among honeybee workers from different European subspecies
 
 Professional Experience {data-icon=suitcase}
 --------------------------------------------------------------------------------
 
-### Position
+### Internship
 
-Institution
+Biodiversity Sciences program of the Line of Risk Assessment and Wildlife, Instituto Alexander von Humboldt
 
-Place
+Bogotá D.C., Colombia
 
-Year - Year
+August 2016 - February 2017
 
-- details
+- Activities: Build up data bases of Colombian exotic wildlife species with invasive potential, and native Colombian wildlife species reported in the Colombian red list books.
 
-### Position
+### Biology teacher
 
-Institution
+Grupo Formarte S.A.S
 
-Place
+Bogotá D.C., Colombia
 
-Year - Year
+January - September 2017
 
-::: concise
-- details in two columns
-:::
+- Topics: biomolecules, protein synthesis, basic cell biology, genetics, metabolism, plants and animal systems, ecology, and evolution.
+
+### International Student Tutor
+
+Kompass Program, Faculty of Biology, Julius-Maximilians-Universit&auml;t W&uuml;rzburg
+
+W&uuml;rzburg, Germany
+
+November 2018 - September 2020
+
+### Part-time research Assistant
+
+Biocenter, Faculty of Biology, Julius-Maximilians-Universit&auml;t W&uuml;rzburg
+
+W&uuml;rzburg, Germany
+
+December 2020 - Present
+
+- Activities: Extraction and GC-MS analysis of Cuticular hydrocarbons.
 
 Continuing Education {data-icon=book data-concise=true}
 --------------------------------------------------------------------------------
 
-### Course
+### Models of Species Distribution
 
-Institution
+Faculty of Science, Universidad Nacional de Colombia
 
-Place
+Bogotá D.C., Colombia
 
-Time
+September 2016 - February 2017
 
+### Intercultural Competences
+
+Faculty of Biology, Julius-Maximilians-Universit&auml;t W&uuml;rzburg
+
+W&uuml;rzburg, Germany
+
+April - July 2018
+
+### Social Evolution
+
+Faculty of Science, University of Copenhagen
+
+Copenhagen, Denmark
+
+November 2019
 
 Selected Presentations and Posters {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
