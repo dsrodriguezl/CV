@@ -9,6 +9,19 @@ output:
 # uncomment this line to produce HTML and PDF in RStudio:
 #knit: pagedown::chrome_print
 ---
+```{r icons-chunk, include = FALSE}
+# Install the remotes package
+  #install.packages("remotes")
+
+# Install the icons package, using the remotes package
+  #remotes::install_github("mitchelloharawild/icons")
+
+# Download fontawesome icons
+  #icons::download_fontawesome()
+
+# Download academicons icons
+  #icons::download_academicons()
+```
 
 Aside
 ================================================================================
@@ -20,12 +33,12 @@ Aside
 Contact Info {#contact}
 --------------------------------------------------------------------------------
 
-- <i class="fa fa-envelope"></i> [daniel.rodriguez@stud-mail.uni-wuerzburg.de](mailto:daniel.rodriguez@stud-mail.uni-wuerzburg.de)
-- <i class="fab fa-github"></i> [dsrodriguezl](https://github.com/dsrodriguezl)
-- <i class="fas fa-phone"></i> +49 0931 31-82967
-- <i class="fab fa-orcid"></i> [0000-0001-9637-1364](https://orcid.org/0000-0001-9637-1364)
-- <i class="fab fa-linkedin"></i> [dsrodriguezl](https://www.linkedin.com/in/dsrodriguezl)
-- <i class="fab fa-researchgate"></i> [Daniel-Rodriguez-Leon](https://www.researchgate.net/profile/Daniel-Rodriguez-Leon-2)
+- `r icons::fontawesome("envelope")` [daniel.rodriguez@stud-mail.uni-wuerzburg.de](mailto:daniel.rodriguez@stud-mail.uni-wuerzburg.de)
+- `r icons::fontawesome("github-square")` [dsrodriguezl](https://github.com/dsrodriguezl)
+- `r icons::fontawesome("phone")` [+49 0931 31-82967](callto:+4909313182967)
+-  `r icons::academicons("orcid")` [0000-0001-9637-1364](https://orcid.org/0000-0001-9637-1364)
+- `r icons::fontawesome("linkedin")` [dsrodriguezl](https://www.linkedin.com/in/dsrodriguezl)
+- `r icons::academicons("researchgate")` [Daniel-Rodriguez-Leon](https://www.researchgate.net/profile/Daniel-Rodriguez-Leon-2)
 - For more information, please contact me via email.
 
 
@@ -50,7 +63,7 @@ Main
 Daniel Rodríguez {#title}
 --------------------------------------------------------------------------------
 
-### Currently working as a PhD student
+### I am Daniel Sebastián Rodríguez León, a colombian biologist with a great interest in Behavioral and Chemical Ecology, in particular towards the study of Social Organization and Evolution, as well as Animal Communication. I am currently a PhD Student at the W&uuml;rzburg University.
 
 
 
@@ -78,7 +91,7 @@ Time
 
 Thesis: -------
 
-Research Experience {data-icon=laptop}
+Professional Experience {data-icon=suitcase}
 --------------------------------------------------------------------------------
 
 ### Position
@@ -89,104 +102,43 @@ Place
 
 Year - Year
 
-- Performed computational biology research towards understanding regulation of alternative splicing in human and mouse transcriptome.
-- Found EGFR pathway related mutations, aimed to understand the impacts of cancer mutations on EGFR signaling pathway.
+- details
 
-### Bioinformatican
+### Position
 
-My Health Gene Technology Co., Ltd.
+Institution
 
-Beijing, China
+Place
 
-2015 - 2016
-
-- Investigated how cancer cells spread to other parts of the body at the single cell level.
-
-### Visiting Scientist
-
-University of Alabama at Birmingham
-
-AL, USA
-
-2016 - 2018
-
-- Investigated the role of mitochondria in development of cancer.
-- Investigated the evolution of genome architecture and its role in important evolutionary events.
-- Detected thrombotic thrombocytopenic purpura related mutations in mutiple patients' blood genome.
-  
-
-Professional Experience {data-icon=suitcase}
---------------------------------------------------------------------------------
-
-### Data Scientist, intern
-
-SupStat Inc.
-
-Beijing, China
-
-2014
+Year - Year
 
 ::: concise
-- Taught R language to beginners. 
-- Wrote Shiny app demos.
-- Converted statistical tutorials from SPSS to R language.
-:::
-
-### Bioinformatician
-
-My Health Gene Technology Co., Ltd.
-
-Beijing, China
-
-2015 - 2016
-
-::: concise
-- Analyzed whole-exome sequencing data. 
-- Wrote analysis pipelines of ChIP-seq, single cell DNA-seq and single cell RNA-seq.
-- Studied tumor metastasis and wrote research reports. 
-- Also did case studies to identify the genetic defect causing rare disease.
+- details in two columns
 :::
 
 
-Teaching Experience {data-icon=chalkboard-teacher}
+Selected Presentations and Posters {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
 
-### Introduction to R Language for Beginners.
+### Title
 
-Instructor of R and Data Mining Training Courses at SupStat Inc.
+Poster/Presentation for Event
 
-Beijing, China
+Place
 
-2014
+Year
 
-### Computational Biology and Bioinformatics.
+**Me (author)**, Other authors/ et al.
 
-Teaching assistant of GBS CB2-201 courses at UAB
-
-AL, USA
-
-2016 - 2017
-
-
-Selected Publications and Posters {data-icon=file}
+Selected Publications {data-icon=file-contract}
 --------------------------------------------------------------------------------
 
-### Genetic and epigenetic signals are found predictive to the distribution of intra-individual divergence of alternative splicing.
+### Title
 
-Poster for 2013 International Conference of Genomics
-
-Qingdao, China
-
-2014
-
-**Yu L**, Chen B, Zhang Z.
-
-### ESCRT-0 complex modulates Rbf mutant cell survival by regulating Rhomboid endosomal trafficking and EGFR signaling.
-
-J Cell Sci. 2016 May 15;129(10):2075-84.
+Abrev, journal Year Month ##;###(##):###-###.
 
 N/A
 
-2016 
+Year 
 
-Sheng Z, **Yu L**, Zhang T, Pei X, Li X, Zhang Z and Du W. 
+1st Author, **Me (author)**, others / et al. 
