@@ -66,7 +66,7 @@ Main
 
 Daniel Rodríguez {#title}
 --------------------------------------------------------------------------------
-### Ph.D. Student - University of W&uuml;rzburg
+### Ph.D. Student - JMU W&uuml;rzburg
 I am Daniel Sebastián Rodríguez León, a colombian biologist with a great interest in Behavioral and Chemical Ecology, in particular towards the study of Social Organization and Evolution, as well as Animal Communication.
 
 
@@ -174,15 +174,35 @@ November 2019
 Selected Presentations and Posters {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
 
-### Title
+### Variation of the relative abundance and diet of dogs (_C. lupus familiaris_) on a gradient of human presence in a natural preserve of the civil society (Tabio, Cundinamarca)
 
-Poster/Presentation for Event
+Presentation. Symposium of Bachelor Theses 2016-I, Faculty of Science, Universidad Nacional de Colombia
 
-Place
+Bogotá D.C., Colombia
 
-Year
+May 2016
 
-**Me (author)**, Other authors/ et al.
+**Daniel Rodríguez**
+
+### Research of the biology and behavior of feral dogs in the PNN Chingaza, for an understanding of their ecological role
+
+Video Poster. II Symposium of Animal Behavior, IV Colombian Congress of Zoology
+
+Cartagena D.T., Colombia
+
+December 2014
+
+**Daniel Rodríguez**, Leonardo Gacría, and David Quinche
+
+### Variation of the cuticular hydrocarbon profiles among honeybees workers with different social roles and between different _Apis mellifera_ subspecies
+
+Flash Presentation. 68th Annual Meeting of the Working Group of the Institutes for Bee Reserach e.V.
+
+Virtual Meeting via Zoom
+
+March 24 2021
+
+**Daniel Rodríguez**
 
 Selected Publications {data-icon=file-contract}
 --------------------------------------------------------------------------------
@@ -230,6 +250,7 @@ Place
 Year - Year
 
 ::: concise
+- details in two columns
 - details in two columns
 :::
 
