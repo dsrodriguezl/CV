@@ -9,7 +9,7 @@ output:
 # uncomment this line to produce HTML and PDF in RStudio:
 #knit: pagedown::chrome_print
 ---
-```{r icons-chunk, include = FALSE}
+```{r icons-chunk, include = F, warning = F, message = F, error = F}
 # Install the remotes package
   #install.packages("remotes")
 
@@ -39,6 +39,7 @@ Contact Info {#contact}
 -  `r icons::academicons("orcid")` [0000-0001-9637-1364](https://orcid.org/0000-0001-9637-1364)
 - `r icons::fontawesome("linkedin")` [dsrodriguezl](https://www.linkedin.com/in/dsrodriguezl)
 - `r icons::academicons("researchgate")` [Daniel-Rodriguez-Leon](https://www.researchgate.net/profile/Daniel-Rodriguez-Leon-2)
+- `r icons::fontawesome("location-arrow")` [University of W&uuml;rzburg, Biocenter - Office C015](https://wueaddress.uni-wuerzburg.de/building/4444)
 - For more information, please contact me via email.
 
 
@@ -62,8 +63,8 @@ Main
 
 Daniel Rodríguez {#title}
 --------------------------------------------------------------------------------
-
-### I am Daniel Sebastián Rodríguez León, a colombian biologist with a great interest in Behavioral and Chemical Ecology, in particular towards the study of Social Organization and Evolution, as well as Animal Communication. I am currently a PhD Student at the W&uuml;rzburg University.
+### Ph.D. Student - University of W&uuml;rzburg
+I am Daniel Sebastián Rodríguez León, a colombian biologist with a great interest in Behavioral and Chemical Ecology, in particular towards the study of Social Organization and Evolution, as well as Animal Communication.
 
 
 
@@ -142,3 +143,14 @@ N/A
 Year 
 
 1st Author, **Me (author)**, others / et al. 
+
+Grants and Fellowships {data-icon=trophy}
+--------------------------------------------------------------------------------
+
+### Title
+
+Insitution
+
+Place
+
+Year(s)
