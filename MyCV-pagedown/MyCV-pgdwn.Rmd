@@ -20,9 +20,12 @@ Aside
 Contact Info {#contact}
 --------------------------------------------------------------------------------
 
-- <i class="fa fa-envelope"></i> 
-- <i class="fa fa-github"></i> []()
-- <i class="fa fa-phone"></i> +## ###-###-####
+- <i class="fa fa-envelope"></i> [daniel.rodriguez@stud-mail.uni-wuerzburg.de](mailto:daniel.rodriguez@stud-mail.uni-wuerzburg.de)
+- <i class="fab fa-github"></i> [dsrodriguezl](https://github.com/dsrodriguezl)
+- <i class="fas fa-phone"></i> +49 0931 31-82967
+- <i class="fab fa-orcid"></i> [0000-0001-9637-1364](https://orcid.org/0000-0001-9637-1364)
+- <i class="fab fa-linkedin"></i> [dsrodriguezl](https://www.linkedin.com/in/dsrodriguezl)
+- <i class="fab fa-researchgate"></i> [Daniel-Rodriguez-Leon](https://www.researchgate.net/profile/Daniel-Rodriguez-Leon-2)
 - For more information, please contact me via email.
 
 
@@ -78,13 +81,13 @@ Thesis: -------
 Research Experience {data-icon=laptop}
 --------------------------------------------------------------------------------
 
-### Graduate Research Assistant
+### Position
 
-Beijing Institute of Genomics, Chinese Academy of Sciences
+Institution
 
-Beijing, China
+Place
 
-2011 - 2014
+Year - Year
 
 - Performed computational biology research towards understanding regulation of alternative splicing in human and mouse transcriptome.
 - Found EGFR pathway related mutations, aimed to understand the impacts of cancer mutations on EGFR signaling pathway.
