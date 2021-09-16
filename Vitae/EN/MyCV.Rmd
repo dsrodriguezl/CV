@@ -95,7 +95,9 @@ tribble(
   "Poster: Research of the biology and behavior of feral dogs in the PNN Chingaza, for an understanding of their ecological role", "December 2014", "II Symposium of Animal Behavior, IV Colombian Congress of Zoology",
   "Cartagena D.T., Colombia", NA,
   
-  "Flash presentation: Variation of the cuticular hydrocarbon profiles among honeybees workers with different social roles and between different Apis mellifera subspecies", "March 24 2021", "68th Annual Meeting of the Working Group of the Institutes for Bee Research e.V.", "Virtual Meeting via Zoom", NA
+  "Flash presentation: Variation of the cuticular hydrocarbon profiles among honeybees workers with different social roles and between different Apis mellifera subspecies", "March 24 2021", "68th Annual Meeting of the Working Group of the Institutes for Bee Research e.V.", "Virtual Meeting via Zoom", NA,
+  
+  "Poster: Variation of cuticular hydrocarbon profiles among honeybee workers with different social roles and between different Apis mellifera subspecies", "August 31 2021", "113th Meeting of the German Zoology Society", "Virtual Meeting via Gather", NA
   
 ) %>% 
   detailed_entries(with =  Title, what = Unit, when = Year, where = Where, why = detail)
