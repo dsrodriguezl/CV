@@ -34,18 +34,18 @@ Contact Info {#contact}
 - `r icons::fontawesome("envelope")` [daniel.rodriguez@stud-mail.uni-wuerzburg.de](mailto:daniel.rodriguez@stud-mail.uni-wuerzburg.de)
 - `r icons::fontawesome("github-square")` [dsrodriguezl](https://github.com/dsrodriguezl)
 - `r icons::fontawesome("phone")` [+49 0931 31-82967](callto:+4909313182967)
--  `r icons::academicons("orcid")` [0000-0001-9637-1364](https://orcid.org/0000-0001-9637-1364)
+- `r icons::academicons("orcid")` [0000-0001-9637-1364](https://orcid.org/0000-0001-9637-1364)
 - `r icons::fontawesome("linkedin")` [dsrodriguezl](https://www.linkedin.com/in/dsrodriguezl)
 - `r icons::academicons("researchgate")` [Daniel-Rodriguez-Leon](https://www.researchgate.net/profile/Daniel-Rodriguez-Leon-2)
-- `r icons::fontawesome("location-arrow")` [University of W&uuml;rzburg, Biocenter - Off. C015](https://wueaddress.uni-wuerzburg.de/building/4444)
+- `r icons::fontawesome("location-arrow")` [University of Würzburg, Biocenter - Off. C015](https://wueaddress.uni-wuerzburg.de/building/4444)
 
 Skills {#skills}
 --------------------------------------------------------------------------------
 - **Software:**
   - **MS** **Office:** Intermediate (User)
-  - **R:** Basic
+  - **R:** Intermediate
   - **Python:** Beginner
-  - **RMarkdown:**  Basic
+  - **RMarkdown:**  Intermediate
   - **Markdown:** Intermediate
   - **Git:** Beginner
 - **Languages:**
@@ -66,7 +66,7 @@ Main
 
 Daniel Rodríguez {#title}
 --------------------------------------------------------------------------------
-### Ph.D. Student - JMU W&uuml;rzburg
+### Ph.D. Student - JMU Würzburg
 I am Daniel Sebastián Rodríguez León, a colombian biologist with a great interest in Behavioral and Chemical Ecology, in particular towards the study of Social Organization and Evolution, as well as Animal Communication.
 
 
@@ -85,9 +85,9 @@ Thesis: Variation of the relative abundance and diet of dogs (_Canis lupus famil
 
 ### Master of Science Biosciences
 
-Julius-Maximilians-Universit&auml;t  W&uuml;rzburg
+Julius-Maximilians-Universität  Würzburg
 
-W&uuml;rzburg, Germany
+Würzburg, Germany
 
 2017 - 2020
 
@@ -95,9 +95,9 @@ Thesis: Variation of cuticular hydrocarbon profiles among honeybee workers from 
 
 ### Doctor of Philosophy Biosciences
 
-Julius-Maximilians-Universit&auml;t  W&uuml;rzburg
+Julius-Maximilians-Universität  Würzburg
 
-W&uuml;rzburg, Germany
+Würzburg, Germany
 
 2020 - Present
 
@@ -128,17 +128,17 @@ January - September 2017
 
 ### International Student Tutor
 
-Kompass Program, Faculty of Biology, Julius-Maximilians-Universit&auml;t W&uuml;rzburg
+Kompass Program, Faculty of Biology, Julius-Maximilians-Universität Würzburg
 
-W&uuml;rzburg, Germany
+Würzburg, Germany
 
 November 2018 - September 2020
 
 ### Part-time research Assistant
 
-Biocenter, Faculty of Biology, Julius-Maximilians-Universit&auml;t W&uuml;rzburg
+Biocenter, Faculty of Biology, Julius-Maximilians-Universität Würzburg
 
-W&uuml;rzburg, Germany
+Würzburg, Germany
 
 December 2020 - Present
 
@@ -157,9 +157,9 @@ September 2016 - February 2017
 
 ### Intercultural Competences
 
-Faculty of Biology, Julius-Maximilians-Universit&auml;t W&uuml;rzburg
+Faculty of Biology, Julius-Maximilians-Universität Würzburg
 
-W&uuml;rzburg, Germany
+Würzburg, Germany
 
 April - July 2018
 
@@ -227,7 +227,7 @@ Grants and Fellowships {data-icon=trophy}
 
 Foreigners promotion of the Konrad-Adenauer-Stiftung
 
-W&uuml;rzburg, Germany
+Würzburg, Germany
 
 January 2021 - Present
 
@@ -236,8 +236,8 @@ Voluntary work {data-icon=handshake}
 
 ### International Student Tutor
 
-Kompass Program, Faculty of Biology, Julius-Maximilians-Universit&auml;t W&uuml;rzburg
+Kompass Program, Faculty of Biology, Julius-Maximilians-Universität Würzburg
 
-W&uuml;rzburg, Germany
+Würzburg, Germany
 
 September 2020 - Present

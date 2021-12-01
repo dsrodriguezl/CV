@@ -2,7 +2,7 @@
 name: Daniel
 surname: Rodríguez
 position: "Ph.D. Student"
-address: "Julius-Maximilians-Universitaet Wuerzburg"
+address: "Julius-Maximilians-Universität Würzburg"
 #phone: 
 profilepic: Mifoto.jpg
 #www: "researchgate.net/profile/Daniel-Rodriguez-Leon"
@@ -30,9 +30,9 @@ library(vitae)
 library(tibble)
 tribble(
    ~ Degree,  ~ Year, ~ Institution,  ~ Where, ~ detail,
-  "Doctor of Philosophy Biosciences", "2020 -Present", "Julius-Maximilians-Universitaet Wuerzburg", "Wuerzburg, Germany", NA,
+  "Doctor of Philosophy Biosciences", "2020 -Present", "Julius-Maximilians-Universität Würzburg", "Würzburg, Germany", NA,
   
-  "Master of Science Biosciences", "2017 - 2020", "Julius-Maximilians-Universitaet Wuerzburg", "Wuerzburg, Germany", NA,
+  "Master of Science Biosciences", "2017 - 2020", "Julius-Maximilians-Universität Würzburg", "Würzburg, Germany", NA,
   
   "Bachelor of Science Biology", "2011 - 2016", "Universidad Nacional de Colombia", "Bogotá, Colombia", NA
   
@@ -47,11 +47,11 @@ library(tibble)
 tribble(
   ~ Title, ~Unit, ~ Year, ~ Where, ~detail,
   
-  "Part-time research Assistant", "Biocentre, Faculty of Biology, Julius-Maximilians-Universitaet Wuerzburg",
-  "December 2020 - Present", "Wuerzburg, Germany", "Activities: Extraction and GC-MS analysis of Cuticular hydrocarbons.",
+  "Part-time research Assistant", "Biocentre, Faculty of Biology, Julius-Maximilians-Universität Würzburg",
+  "December 2020 - Present", "Würzburg, Germany", "Activities: Extraction and GC-MS analysis of Cuticular hydrocarbons.",
   
-  "International Student Tutor", "Kompass Program, Faculty of Biology, Julius-Maximilians-Universitaet Wuerzburg",
-  "November 2018 - September 2020", "Wuerzburg, Germany", NA,
+  "International Student Tutor", "Kompass Program, Faculty of Biology, Julius-Maximilians-Universität Würzburg",
+  "November 2018 - September 2020", "Würzburg, Germany", NA,
   
   "Biology teacher", "Grupo Formarte S.A.S", "August 2016 - February 2017",  "Bogotá, Colombia",
   "Topics: biomolecules, protein synthesis, basic cell biology, genetics, metabolism, plants and animal systems, ecology, and evolution.",
@@ -73,8 +73,8 @@ tribble(
   
   "Social Evolution", "November 2019", "Faculty of Science, University of Copenhagen", "Copenhagen, Denmark", NA,
   
-  "Intercultural Competences", "April - July 2018", "Faculty of Biology, Julius-Maximilians-Universitaet Wuerzburg",
-  "Wuerzburg, Germany", NA,
+  "Intercultural Competences", "April - July 2018", "Faculty of Biology, Julius-Maximilians-Universität Würzburg",
+  "Würzburg, Germany", NA,
   
    "Models of Species Distribution", "September 2016 - February 2017", "Faculty of Science, Universidad Nacional de Colombia", "Bogotá, Colombia", NA
   
@@ -115,7 +115,7 @@ library(dplyr)
 
 tribble(
   ~ Type, ~ Institution, ~ Year, ~ Where, 
-  "Doctoral fellowship", "Foreigners promotion, Konrad-Adenauer-Stiftung", "January 2021 - Present", "Wuerzburg, Germany"
+  "Doctoral fellowship", "Foreigners promotion, Konrad-Adenauer-Stiftung", "January 2021 - Present", "Würzburg, Germany"
 ) %>%  
   detailed_entries(with = Type, what = Institution, when = Year, where = Where)
 
@@ -128,8 +128,8 @@ library(dplyr)
 
 tribble(
   ~ Type, ~ Institution, ~ Year, ~ Where,
-  "International Student Tutor", "Kompass Program, Faculty of Biology, Julius-Maximilians-Universitaet Wuerzburg",
-  "September 2020 - Present", "Wuerzburg, Germany"
+  "International Student Tutor", "Kompass Program, Faculty of Biology, Julius-Maximilians-Universität Würzburg",
+  "September 2020 - Present", "Würzburg, Germany"
  
 ) %>%  
   detailed_entries(with = Type, what = Institution, when = Year, where = Where)
@@ -146,11 +146,11 @@ tribble(
   ~ Area, ~ Qualification,
  "Offimatic Applications", "MS Office: Good Knowledge (User)",
  
-  "Programming languages", "R: Basic knowledge",
+  "Programming languages", "R: Intermediate knowledge",
   NA, "Python: Basic knowledge",
  
-  "Markup languages", "RMarkdown: Basic knowledge",
-  NA, "Markdown: Basic knowledge",
+  "Markup languages", "RMarkdown: Intermediate knowledge",
+  NA, "Markdown: Intermediate knowledge",
  
   "Version control", "Git: Basic knowledge",
   
