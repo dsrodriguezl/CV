@@ -62,17 +62,14 @@ continuing_education |>
   detailed_entries(with =  Degree, what = Institution, when = Year, where = Where, why = detail, .protect = F)
 ```
 
-# Research output
-
-## Publications
+# Publications
 
 ```{r}
 bibliography_entries("publications.bib") |>
   arrange(desc(author$family), issued)
 ```
 
-
-## Conferences contributions
+# Conference contributions
 
 ```{r}
 conferences |> 
