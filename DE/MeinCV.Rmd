@@ -1,0 +1,163 @@
+---
+name: Daniel
+surname: Rodríguez
+position: "Ph.D. Student"
+address: "Julius-Maximilians-Universität Würzburg"
+#phone: 
+profilepic: Mifoto.jpg
+#www: "researchgate.net/profile/Daniel-Rodriguez-Leon"
+email: "daniel.rodriguez@stud-mail.uni-wuerzburg.de"
+orcid: 0000-0001-9637-1364
+researchgate: Daniel-Rodriguez-Leon
+linkedin: dsrodriguezl
+github: dsrodriguezl
+date: "`r format(Sys.time(), '%B %Y')`"
+headcolor: "870000"
+aboutme: "I am Daniel Sebastián Rodríguez León, a colombian biologist with a great interest in Behavioral and Chemical Ecology, in particular towards the study of Social Organization and Evolution, as well as Animal Communication."
+output: vitae::awesomecv
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      warning = FALSE,
+                      message = FALSE)
+library(vitae)
+```
+
+# Higher Education
+
+```{r}
+library(tibble)
+tribble(
+   ~ Degree,  ~ Year, ~ Institution,  ~ Where, ~ detail,
+  "Doctor of Philosophy Biosciences", "2020 -Present", "Julius-Maximilians-Universität Würzburg", "Würzburg, Germany", NA,
+  
+  "Master of Science Biosciences", "2017 - 2020", "Julius-Maximilians-Universität Würzburg", "Würzburg, Germany", NA,
+  
+  "Bachelor of Science Biology", "2011 - 2016", "Universidad Nacional de Colombia", "Bogotá, Colombia", NA
+  
+) %>% 
+  detailed_entries(with =  Degree, what = Institution, when = Year, where = Where, why = detail)
+```
+
+# Professional Experience
+
+```{r}
+library(tibble)
+tribble(
+  ~ Title, ~Unit, ~ Year, ~ Where, ~detail,
+  
+  "Part-time research Assistant", "Biocentre, Faculty of Biology, Julius-Maximilians-Universität Würzburg",
+  "December 2020 - Present", "Würzburg, Germany", "Activities: Extraction and GC-MS analysis of Cuticular hydrocarbons.",
+  
+  "International Student Tutor", "Kompass Program, Faculty of Biology, Julius-Maximilians-Universität Würzburg",
+  "November 2018 - September 2020", "Würzburg, Germany", NA,
+  
+  "Biology teacher", "Grupo Formarte S.A.S", "August 2016 - February 2017",  "Bogotá, Colombia",
+  "Topics: biomolecules, protein synthesis, basic cell biology, genetics, metabolism, plants and animal systems, ecology, and evolution.",
+  
+  "Internship", "Biodiversity Sciences program of the Line of Risk Assessment and Wildlife, Instituto Alexander von Humboldt",
+  "August 2016 - February 2017", "Bogotá, Colombia", "Activities: Build up data bases of Colombian exotic wildlife species with invasive potential, and native Colombian wildlife species reported in the Colombian red list books."
+
+) %>% 
+  detailed_entries(with = Title, what = Unit, when = Year, where = Where, why = detail)
+```
+
+# Continuing Education
+
+```{r}
+library(tibble)
+
+tribble(
+   ~ Degree,  ~ Year, ~ Institution,  ~ Where, ~ detail,
+  
+  "Social Evolution", "November 2019", "Faculty of Science, University of Copenhagen", "Copenhagen, Denmark", NA,
+  
+  "Intercultural Competences", "April - July 2018", "Faculty of Biology, Julius-Maximilians-Universität Würzburg",
+  "Würzburg, Germany", NA,
+  
+   "Models of Species Distribution", "September 2016 - February 2017", "Faculty of Science, Universidad Nacional de Colombia", "Bogotá, Colombia", NA
+  
+) %>% 
+  detailed_entries(with =  Degree, what = Institution, when = Year, where = Where, why = detail)
+```
+
+# Posters & Presentations
+
+```{r}
+library(tibble)
+
+tribble(
+   ~ Title,  ~ Year, ~ Unit,  ~ Where, ~ detail,
+  
+   "Presentation: Variation of the relative abundance and diet of dogs (C. lupus familiaris) on a gradient of human presence in a natural preserve of the civil society (Tabio, Cundinamarca)", "May 2016", "Symposium of bachelor theses 2016-I, Faculty of Science, Universidad Nacional de Colombia", "Bogotá, Colombia", NA,
+   
+  "Poster: Research of the biology and behavior of feral dogs in the PNN Chingaza, for an understanding of their ecological role", "December 2014", "II Symposium of Animal Behavior, IV Colombian Congress of Zoology",
+  "Cartagena D.T., Colombia", NA
+  
+) %>% 
+  detailed_entries(with =  Title, what = Unit, when = Year, where = Where, why = detail)
+```
+
+# Publications
+
+```{r}
+library(dplyr)
+
+bibliography_entries("BIB.bib") %>%
+  arrange(desc(author$family), issued)
+```
+
+# Grants and Fellowships
+
+```{r}
+library(dplyr)
+
+tribble(
+  ~ Type, ~ Institution, ~ Year, ~ Where, 
+  "Doctoral fellowship", "Foreigners promotion, Konrad-Adenauer-Stiftung", "January 2021 - Present", "Würzburg, Germany"
+) %>%  
+  detailed_entries(with = Type, what = Institution, when = Year, where = Where)
+
+```
+
+# Voluntary work
+
+```{r}
+library(dplyr)
+
+tribble(
+  ~ Type, ~ Institution, ~ Year, ~ Where,
+  "International Student Tutor", "Kompass Program, Faculty of Biology, Julius-Maximilians-Universität Würzburg",
+  "September 2020 - Present", "Würzburg, Germany"
+ 
+) %>%  
+  detailed_entries(with = Type, what = Institution, when = Year, where = Where)
+
+```
+
+
+# Additional Qualifications
+
+```{r}
+library(dplyr)
+
+tribble(
+  ~ Area, ~ Qualification,
+ "Offimatic Applications", "MS Office: Good Knowledge (User)",
+ 
+  "Programming languages", "R: Intermediate knowledge",
+  NA, "Python: Basic knowledge",
+ 
+  "Markup languages", "RMarkdown: Intermediate knowledge",
+  NA, "Markdown: Intermediate knowledge",
+ 
+  "Version control", "Git: Basic knowledge",
+  
+  "Languages", "Spanish: Mother Tongue",
+  NA, "English: Advance (C1)",
+  NA, "German: Intermediate (B2)"
+ 
+) %>%  
+  detailed_entries(with = Area, what = Qualification)
+```
