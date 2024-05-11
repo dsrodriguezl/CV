@@ -13,6 +13,7 @@ linkedin: dsrodriguezl
 github: dsrodriguezl
 date: "`r format(Sys.time(), '%B %Y')`"
 headcolor: "870000"
+papersize: letterpaper
 # "5D2B7E"
 # aboutme: "I am Daniel Sebastián Rodríguez León, a colombian biologist with a great interest in Behavioral and Chemical Ecology, in particular towards the study of Social Organization and Evolution, as well as Animal Communication."
 output: vitae::awesomecv
