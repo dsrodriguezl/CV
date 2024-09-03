@@ -1,0 +1,184 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for CV/Resume
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+%
+% Adapted to be an Rmarkdown template by Mitchell O'Hara-Wild
+% 23 November 2018
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt,a4paper,]{awesome-cv}
+
+% Configure page margins with geometry
+\usepackage{geometry}
+\geometry{left=2.5cm, top=1.5cm, right=2.5cm, bottom=2.0cm, footskip=.5cm}
+
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+
+\definecolor{awesome}{HTML}{000000}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+\def\endfirstpage{\newpage}
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+
+\name{Daniel}{Rodríguez}
+
+
+\orcid{0000-0001-9637-1364}
+\researchgate{Daniel-Rodriguez-Leon}
+\github{dsrodriguezl}
+\linkedin{dsrodriguezl}
+
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \skype{skype-id}
+% \reddit{reddit-id}
+
+
+\usepackage{booktabs}
+
+\providecommand{\tightlist}{%
+	\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+%------------------------------------------------------------------------------
+
+
+
+% Pandoc CSL macros
+
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+% 2019-02-14 Chris Umphlett - add flexibility to the document name in footer, rather than have it be static Curriculum Vitae
+\makecvfooter
+  {September 2024}
+    {Daniel Rodríguez~~~·~~~Curriculum Vitae}
+  {\thepage}
+
+
+%-------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%	Each section is imported separately, open each file in turn to modify content
+%------------------------------------------------------------------------------
+
+
+
+\section{Higher Education}\label{higher-education}
+
+\begin{cventries}
+    \cventry{Julius-Maximilians-Universität Würzburg}{Doctor of Philosophy Biosciences}{Würzburg, Germany}{2020 -Present}{}\vspace{-4.0mm}
+    \cventry{Julius-Maximilians-Universität Würzburg}{Master of Science Biosciences}{Würzburg, Germany}{2017 - 2020}{}\vspace{-4.0mm}
+    \cventry{Universidad Nacional de Colombia}{Bachelor of Science Biology}{Bogotá, Colombia}{2011 - 2016}{}\vspace{-4.0mm}
+\end{cventries}
+
+\section{Professional Experience}\label{professional-experience}
+
+\begin{cventries}
+    \cventry{Zoo3 department, Biocentre, Faculty of Biology, Julius-Maximilians-Universität Würzburg}{Doctoral researcher}{Würzburg, Germany}{January 2024 - June 2024}{\begin{cvitems}
+\item Project: Function of Cuticular Hydrocarbons in Honey bees.
+\item Teaching: Chemical ecology practical course for Master students.
+\end{cvitems}}
+    \cventry{Biocentre, Faculty of Biology, Julius-Maximilians-Universität Würzburg}{Part-time research Assistant}{Würzburg, Germany}{December 2020 - December 2023}{\begin{cvitems}
+\item Activities: Extraction and GC-MS analysis of Cuticular hydrocarbons.
+\end{cvitems}}
+    \cventry{Kompass Program, Faculty of Biology, Julius-Maximilians-Universität Würzburg}{International Student Tutor}{Würzburg, Germany}{November 2018 - September 2020}{}\vspace{-4.0mm}
+    \cventry{Grupo Formarte S.A.S}{Biology teacher}{Bogotá, Colombia}{August 2016 - February 2017}{\begin{cvitems}
+\item Topics: biomolecules, protein synthesis, basic cell biology, genetics, metabolism, plants and animal systems, ecology, and evolution.
+\end{cvitems}}
+    \cventry{Biodiversity Sciences program of the Line of Risk Assessment and Wildlife, Instituto Alexander von Humboldt}{Internship}{Bogotá, Colombia}{August 2016 - February 2017}{\begin{cvitems}
+\item Activities: Build up data bases of Colombian exotic wildlife species with invasive potential, and native Colombian wildlife species reported in the Colombian red list books.
+\end{cvitems}}
+\end{cventries}
+
+\section{Continuing Education}\label{continuing-education}
+
+\begin{cventries}
+    \cventry{Faculty of Science, University of Copenhagen}{Social Evolution}{Copenhagen, Denmark}{November 2019}{}\vspace{-4.0mm}
+    \cventry{Faculty of Biology, Julius-Maximilians-Universität Würzburg}{Intercultural Competences}{Würzburg, Germany}{April - July 2018}{}\vspace{-4.0mm}
+    \cventry{Faculty of Science, Universidad Nacional de Colombia}{Models of Species Distribution}{Bogotá, Colombia}{September 2016 - February 2017}{}\vspace{-4.0mm}
+\end{cventries}
+
+\section{Conference contributions}\label{conference-contributions}
+
+\begin{cventries}
+    \cventry{European meeting of the International Union for the Study of Social Insects (IUSSI)}{Honey bee (\textit{Apis mellifera}) CHC variations: New insight from desaturases and elongases
+expression assays}{Lausanne, Switzerland}{July 8 2024}{}\vspace{-4.0mm}
+    \cventry{7th meeting of the Central European Section of the IUSSI}{Presentation: The expression of elongases and desaturases shed light on the CHC plasticity of honey
+bees (\textit{Apis mellifera})}{Cluj-Napoca, Romania}{September 19 2023}{}\vspace{-4.0mm}
+    \cventry{Symposium of Communication and Chemical Ecology, 9th European Congress of Apidology}{Presentation: Honeybee workers display task-related and subspecific patterns in their cuticular hydrocarbon profiles}{Belgrade, Serbia}{September 22 2022}{}\vspace{-4.0mm}
+    \cventry{113th Meeting of the German Zoology Society}{Poster: Variation of cuticular hydrocarbon profiles among honeybee workers with different social roles and between different \textit{Apis mellifera} subspecies}{Virtual Meeting via Gather}{August 31 2021}{}\vspace{-4.0mm}
+    \cventry{68th Annual Meeting of the Working Group of the Institutes for Bee Research e.V.}{Flash presentation: Variation of the cuticular hydrocarbon profiles among honeybees workers with different social roles and between different \textit{Apis mellifera} subspecies}{Virtual Meeting via Zoom}{March 24 2021}{}\vspace{-4.0mm}
+    \cventry{II Symposium of Animal Behavior, IV Colombian Congress of Zoology}{Poster: Research of the biology and behavior of feral dogs in the PNN Chingaza, for an understanding of their ecological role}{Cartagena D.T., Colombia}{December 2014}{}\vspace{-4.0mm}
+    \cventry{Symposium of bachelor theses 2016-I, Faculty of Science, Universidad Nacional de Colombia}{Presentation: Variation of the relative abundance and diet of dogs (\textit{C. lupus familiaris}) on a gradient of human presence in a natural preserve of the civil society (Tabio, Cundinamarca)}{Bogotá, Colombia}{May 2016}{}\vspace{-4.0mm}
+\end{cventries}
+
+\section{Stipends and Awards}\label{stipends-and-awards}
+
+\begin{cventries}
+    \cventry{Foreigners promotion, Konrad-Adenauer-Stiftung}{Doctoral fellowship}{Würzburg, Germany}{January 2021 - December 2023}{}\vspace{-4.0mm}
+\end{cventries}
+
+\section{Voluntary work}\label{voluntary-work}
+
+\begin{cventries}
+    \cventry{Graduated School of Life Sciences, Julius-Maximilians-Universität Würzburg}{Member of  the Doctoral Researchers Council}{Würzburg, Germany}{January 2022 - Present}{}\vspace{-4.0mm}
+    \cventry{Kompass Program, Faculty of Biology, Julius-Maximilians-Universität Würzburg}{International Student Tutor}{Würzburg, Germany}{September 2020 - Present}{}\vspace{-4.0mm}
+\end{cventries}
+
+\section{Additional Qualifications}\label{additional-qualifications}
+
+\begin{cvhonors}
+    \cvhonor{}{MS Office: Good Knowledge (User)}{}{Offimatic}
+    \cvhonor{}{R: Advanced knowledge}{}{Coding}
+    \cvhonor{}{Markdown: Intermediate knowledge}{}{}
+    \cvhonor{}{Python: Basic knowledge}{}{}
+    \cvhonor{}{Git: Basic knowledge}{}{}
+    \cvhonor{}{Spanish: Mother Tongue}{}{Languages}
+    \cvhonor{}{English: Advanced (C1)}{}{}
+    \cvhonor{}{German: Intermediate (B2)}{}{}
+\end{cvhonors}
+
+
+
+\end{document}
