@@ -3,9 +3,9 @@ name: Daniel
 surname: Rodríguez
 position: "Ph.D. Student"
 address: "JMU-Würzburg, Biocentre, Office C015"
-phone: 0931 31-82967
+# phone: 0931 31-82967
 #profilepic: Mifoto.jpg
-#www: "researchgate.net/profile/Daniel-Rodriguez-Leon"
+www: "dsrodriguezl.github.io/digitalCV"
 email: "daniel.rodriguez@uni-wuerzburg.de"
 orcid: 0000-0001-9637-1364
 researchgate: Daniel-Rodriguez-Leon
@@ -13,7 +13,7 @@ linkedin: dsrodriguezl
 github: dsrodriguezl
 date: "`r format(Sys.time(), '%B %Y')`"
 headcolor: "870000"
-papersize: letterpaper
+# papersize: letterpaper
 # "5D2B7E"
 # aboutme: "I am Daniel Sebastián Rodríguez León, a colombian biologist with a great interest in Behavioral and Chemical Ecology, in particular towards the study of Social Organization and Evolution, as well as Animal Communication."
 output: vitae::awesomecv
