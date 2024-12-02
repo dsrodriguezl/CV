@@ -13,6 +13,7 @@ linkedin: dsrodriguezl
 github: dsrodriguezl
 date: "`r format(Sys.time(), '%B %Y')`"
 headcolor: "870000"
+fontsize: 10pt
 # papersize: letterpaper
 # "5D2B7E"
 # aboutme: "I am Daniel Sebastián Rodríguez León, a colombian biologist with a great interest in Behavioral and Chemical Ecology, in particular towards the study of Social Organization and Evolution, as well as Animal Communication."
@@ -25,10 +26,11 @@ knitr::opts_chunk$set(echo = FALSE,
                       message = FALSE)
 library(vitae)
 library(dplyr)
+library(stringr)
 library(tibble)
+library(readxl)
 
 readExcelSheets <- function(filename){
-  library(readxl)
   sheets <- excel_sheets(here::here("EN", filename))
   sheets_list <- lapply(sheets
                        , function(x) read_excel(
@@ -65,9 +67,18 @@ continuing_education |>
 
 # Publications
 
+## Peer-reviewed
+
 ```{r}
 bibliography_entries("publications.bib") |>
-  arrange(desc(author$family), issued)
+  arrange(issued, desc(author$family))
+```
+
+## Non-peer-reviewed
+
+```{r}
+bibliography_entries("non-peer-reviewed.bib") |>
+  arrange(issued, desc(author$family))
 ```
 
 # Conference contributions
